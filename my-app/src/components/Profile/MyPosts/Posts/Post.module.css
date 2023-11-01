@@ -1,0 +1,36 @@
+.item{
+    margin: 20px 20px;
+    background-color: #AEAEAE;
+    display: flex;
+    min-height: 90px;
+}
+
+.post__info{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.avatar img{
+    height: 50px;
+    border-radius: 25px;
+}
+
+.l{
+    display: flex;
+    margin: 0 auto;
+}
+
+.like{ 
+    height: 25px;
+}
+
+
+
+
+.post{
+    margin: 10px;
+    background-color: white;
+}
+ 

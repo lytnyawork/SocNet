@@ -1,0 +1,28 @@
+
+html{
+    background-color: #4E4E50;
+}
+.app-wrapper{
+    
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 15% auto;
+    grid-template-areas: 
+    "h h" 
+    "n c"
+    
+    ;
+    gap: 15px;
+    
+    width: 1200px;
+    margin: 20px auto;
+    
+}
+
+.app-wrapper-content{
+    
+        grid-area: c;
+        
+   
+    
+}
