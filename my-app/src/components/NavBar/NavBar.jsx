@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react'
 import s from './NavBar.module.css'
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   return (
@@ -7,23 +8,23 @@ const NavBar = () => {
 
         <div className={s.nav__text}>
 
-          <div className={s.item}>
-            <a href="/profile">Profile</a>
+          <div className={s.item__A}>
+            <NavLink to="/profile" className = { navData => navData.isActive ? s.active : s.item } >Profile</NavLink>
           </div>
-          <div className={s.item}>
-            <a href="/dialogs">Messages</a>
-          </div>
-          
-          <div className={s.item}>
-            <a href="">News</a>
+          <div className= {s.item__A} >
+            <NavLink to="/dialogs" className = { navData => navData.isActive ? s.active : s.item } >Messages</NavLink>
           </div>
           
-          <div className={s.item}>
-            <a href="">Music</a>
+          <div className={s.item__A}>
+            <a >News</a>
+          </div>
+          
+          <div className={s.item__A}>
+            <a  >Music</a>
           </div>
 
-          <div className={s.item}>
-            <a href="">Settings</a>
+          <div className={s.item__A}>
+            <a >Settings</a>
           </div>
                    
         </div>

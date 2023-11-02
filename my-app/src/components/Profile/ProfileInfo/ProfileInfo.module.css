@@ -1,0 +1,23 @@
+
+.info{
+    display: flex;
+}
+
+.avatar{
+    margin: 20px;
+    height: 100px;
+}
+
+.descriptionBlock{
+    margin: 20px;
+    color: white;
+
+}
+.user__name{
+    color: white;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.description{
+    margin-top: 10px;
+}

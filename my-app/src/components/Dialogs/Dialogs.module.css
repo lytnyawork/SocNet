@@ -1,0 +1,36 @@
+
+.dialog{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-area: c;
+    background-color: #303030;
+}
+.dialog__item{
+    margin: 10px auto;
+}
+.item__A{
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.item{
+   
+    text-decoration: none;
+    color: white;
+}
+.active {
+    text-decoration: none;
+    color: gold;
+}
+.messages{
+    margin-top: 10px;
+    
+}
+.mes{
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+
